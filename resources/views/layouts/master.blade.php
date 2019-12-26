@@ -60,13 +60,13 @@
           <small>List of all blog posted</small>
         </h1>
 
-        <!-- Blog Post -->
-        
+        <img src="https://i.gifer.com/YQ.gif">
 
+        <!-- Blog Post -->
         @yield('content')
 
 
-        <!-- Pagination
+        <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
             <a class="page-link" href="#">&larr; Older</a>
@@ -153,6 +153,7 @@
     <!-- /.container -->
   </footer>
 
+  
   <!-- Bootstrap core JavaScript -->
   <script src={{ url("vendor/jquery/jquery.min.js") }}></script>
   <script src={{ url("vendor/bootstrap/js/bootstrap.bundle.min.js") }}></script>
