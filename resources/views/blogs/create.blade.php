@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Create new Blog</div>
+                <div class="card-header">Create new Post</div>
 
                 <div class="card-body">
                       
@@ -19,8 +19,8 @@
                                 <label for="exampleFormControlTextarea1">Description</label>
                                 <textarea class="form-control" name="body" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <button type="submit" name="submit" value="submit" class="btn btn-primary mb-2">Create Blog</button>
-                        <a href="{{ route('blog:index')}}" class="btn btn-link">Cancel</a>
+                        <button type="submit" name="submit" value="submit" class="btn btn-primary mb-2">Create Post</button>
+                        <a href="{{ route('public:all')}}" class="btn btn-link">Cancel</a>
                   </form>
 
                     

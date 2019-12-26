@@ -59,7 +59,9 @@ class BlogController extends Controller
         $user->blogs()->create($request->only('title','body'));
 
         //return view('blogs.index')
-        return redirect()->route('blog:index')->with(['alert-type' => 'alert-success','alert'=> 'Your blog saved']);
+        //return redirect()->route('blog:index')->with(['alert-type' => 'alert-success','alert'=> 'Your blog saved']);
+        return redirect()->route('public:all')->with(['alert-type' => 'alert-success','alert'=> 'Your post saved']);
+    
     }
 
     /**

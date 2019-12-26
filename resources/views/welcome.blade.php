@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Mizi deployed!
+                    Zuhaily deployed!
                 </div>
 
                 <div class="links">
