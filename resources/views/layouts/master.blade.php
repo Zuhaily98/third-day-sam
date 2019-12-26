@@ -61,6 +61,7 @@
         </h1>
 
         <img src="https://i.gifer.com/YQ.gif">
+        <!-- <img src="/public/storage/{{ "staff.jpg" }}" height="30px" width="30px" /> -->
 
         <!-- Blog Post -->
         @yield('content')
@@ -74,7 +75,7 @@
           <li class="page-item disabled">
             <a class="page-link" href="#">Newer &rarr;</a>
           </li>
-        </ul> -->
+        </ul> 
 
       </div>
 
