@@ -31,11 +31,11 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($blogs as $blog)
+                                @foreach ($blogs as $blog)  
                                     <tr>
                                         <td>{{ $blog->id}}</td>
                                         <td>{{ $blog->title}}</td>
-                                        <td>{{ $blog->created_at->diffForHumans()}}</td>
+                                        <td>{{ $blog->created_at->diffForHumans() }}</td>
                                         <td>{{ $blog->author}}</td>
                                         <td>
                                             <a href="{{ route('blog:show',$blog) }}" class="btn btn-success">Show</a>

@@ -21,7 +21,7 @@
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-  <title>What's up?</title>
+  <title>Open Table :: New Year Edition xD</title>
 
   <!-- Custom styles for this template -->
   <link href={{ url("css/blog-home.css") }} rel="stylesheet">
@@ -66,7 +66,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
-                  document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
+                  document.getElementById('logout-form').submit();">{{ __('Logout (Tubek)') }}</a>
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                   @csrf
                 </form>
@@ -81,16 +81,11 @@
   <div class="container">
 
     <div class="row">
-
       <!-- Blog Entries Column -->
       <div class="col-md-10">
-        <table>
-        <tr>
-          <td><h1 class="my-4">Happy New Year!
-          <br><small>Share your new year's wish or thought here </small></td>
-          <td><img src="https://66.media.tumblr.com/tumblr_m06n5yxh7e1qcwph1o1_500.gifv" height="120px" width="220px"></td>
-        </tr>
-        </table>  
+        <h1 class="my-4">Happy New Year!
+        <!-- <br><br><img src="https://66.media.tumblr.com/tumblr_m06n5yxh7e1qcwph1o1_500.gifv" height="120px" width="220px"> -->
+          <br><small>Share your new year's wish or thought here </small> 
         </h1>
 
         <!-- <img src="https://i.gifer.com/YQ.gif" height="30px" width="30px"> -->

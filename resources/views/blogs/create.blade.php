@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Create new Post</div>
+                <div class="card-header">Create new Post - <i>Tulis je ape-ape</i></div>
 
                 <div class="card-body">
                       
@@ -16,7 +16,7 @@
                                 <input type="text" name="title" class="form-control" id="exampleFormControlInput1" placeholder="Title">
                               </div>
                         <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Description</label>
+                                <label for="exampleFormControlTextarea1">Message</label>
                                 <textarea class="form-control" name="body" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <button type="submit" name="submit" value="submit" class="btn btn-primary mb-2">Create Post</button>
