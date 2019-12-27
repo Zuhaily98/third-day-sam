@@ -13,7 +13,7 @@
     <div class="row justify-content-left">
         <div class="col-md-40">
             <div class="card">
-              <div class="card-header">Post your own wish! 
+              <div class="card-header">Create your own post! 
                 <div class="float-center">
                   <a href="{{ route('blog:create')}}" class="btn btn-primary">Create New</a>
                   <img src="https://i.gifer.com/YQ.gif" height="60px" width="60px">
@@ -41,6 +41,6 @@
             </div>
           </div>          
       @endforeach
-      {{ $blogs->links()}}
+       {{ $blogs->links()}} 
 @endsection
 
