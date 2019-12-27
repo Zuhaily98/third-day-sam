@@ -85,7 +85,7 @@
       <div class="col-md-10">
         <h1 class="my-4">Happy New Year! <img src="https://img1.picmix.com/output/stamp/normal/0/4/3/4/534340_49c64.gif" height="80px" width="80px">
         <!-- <br><br><img src="https://66.media.tumblr.com/tumblr_m06n5yxh7e1qcwph1o1_500.gifv" height="120px" width="220px"> -->
-          <br><small>Feel free to share your new year's resolution, wishes or maybe some advice for us<img src="https://d1j8pt39hxlh3d.cloudfront.net/uploads/face_throwing_a_kiss_256_1.gif" height="40px" width="40px"></small> 
+          <br><small>Feel free to share your new year's resolution, wishes or maybe some advice for me<img src="https://d1j8pt39hxlh3d.cloudfront.net/uploads/face_throwing_a_kiss_256_1.gif" height="40px" width="40px"></small> 
         </h1>
 
         <!-- <img src="https://i.gifer.com/YQ.gif" height="30px" width="30px"> -->
